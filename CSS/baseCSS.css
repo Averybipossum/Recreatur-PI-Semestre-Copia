@@ -1,18 +1,35 @@
 .navegador{
     background-color: #134074;
 }
-
-.navegador li a{
+.navegador div li a{
     display: inline-block; 
     font-size:larger;
     text-decoration: none;
     font-family: 'Quicksand';
     color: #D7DAE5;
+    font-weight: bold;
 }
 .navegador img{
     width: 60px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 10px;
+    
 }
+.navegador div a{
+    font-size: xx-large;
+    color: #ffa630;
+    font-family: 'Quicksand';
+    font-weight: bold;
 
+}
+.navbar-nav > li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-nav :hover{
+    color: #ffa630;
+}
 .rodape{
     background-color: #134074;
 }
@@ -21,8 +38,6 @@
     text-decoration: none;
     
 }
-
-.navbar-nav > li{
-    padding-left: 30px;
+.rodape a{
     padding-right: 30px;
 }
