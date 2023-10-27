@@ -16,6 +16,10 @@
     padding-right: 10px;
     
 }
+.navegador div a:hover{
+    color: #ffa630;
+
+}
 .navegador div a{
     font-size: xx-large;
     color: #ffa630;
@@ -26,9 +30,6 @@
 .navbar-nav > li{
     padding-left: 20px;
     padding-right: 20px;
-}
-.navbar-nav :hover{
-    color: #ffa630;
 }
 .rodape{
     background-color: #134074;
