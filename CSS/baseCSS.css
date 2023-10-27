@@ -1,0 +1,28 @@
+.navegador{
+    background-color: #134074;
+}
+
+.navegador li a{
+    display: inline-block; 
+    font-size:larger;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #D7DAE5;
+}
+.navegador img{
+    width: 60px;
+}
+
+.rodape{
+    background-color: #134074;
+}
+.rodape li{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.navbar-nav > li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
