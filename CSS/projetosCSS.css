@@ -1,0 +1,33 @@
+.caixaAtividade{
+ background-color: #D9D9D9;
+ box-shadow: 5px 5px #134074;
+ height: 510px;
+}
+.caixaSteam{
+background-color: #D9D9D9;
+box-shadow: 5px 5px #134074;
+height: 210px;
+}
+.tituloAtividade{
+color: #134074;
+font-weight: bold;
+font-size: larger;
+font-family: 'Quicksand';
+text-align: center;
+}
+.tituloSteam{
+color: #ffa630;
+font-weight: bold;
+font-size: larger;
+font-family: 'Quicksand';
+}
+.colunaImagem{
+  flex: 25%;
+  max-width: 100%;
+  padding: 0px 4px;
+}
+.colunaImagem img {
+  margin-top: 5px;
+  height: 280px;
+  vertical-align:middle;
+}
