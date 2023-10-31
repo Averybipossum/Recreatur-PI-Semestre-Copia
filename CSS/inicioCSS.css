@@ -1,8 +1,8 @@
 .img-fluid{
     height: 3%;
     max-width: auto;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     border: 3px solid;
 }
 .quadro{
@@ -20,4 +20,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: inline-block; 
+    font-size:larger;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #D7DAE5;
+    font-weight: bold;
   }
+.centered h1{
+    font-weight: bold;
+    color: #ffa630;
+}
