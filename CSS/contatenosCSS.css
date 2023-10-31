@@ -3,7 +3,7 @@
 }
 
 .conteudo {
-    padding: 6%;
+    padding: 3%;
 }
 
 .col-md-6 {
@@ -50,6 +50,6 @@ input[type=submit]:hover {
 .doacoes {
     padding: 20px;
     background-color:white;
-    height: 610px;
+    height: 500px;
     border: #134074;
 }
