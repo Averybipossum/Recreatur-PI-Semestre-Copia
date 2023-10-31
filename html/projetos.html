@@ -12,15 +12,11 @@
     <link rel="stylesheet" href="/CSS/baseCSS.css">
     <link rel="stylesheet" href="/CSS/projetosCSS.css">
     <link rel="icon" href="/images/Passatempo_Educativo.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-    <script src="/js/tabs.js"></script>
     <title>Projetos</title>
 </head>
 <body>
     <!-- navegação -->
-    <nav class="navbar navbar-expand-sm navegador">
+    <nav class="navbar navbar-expand-lg navegador">
         <div class="container-fluid">
             <img src="/images/Passatempo_Educativo.png" alt="Passatempo Educativo">
             <a class="navbar-brand" href="#">Recreatur</a>
@@ -54,18 +50,60 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="caixaAtividade">
-                    <h5 class="tituloAtividade">Kits de Atividades</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint qui inventore beatae pariatur sit non numquam, corrupti placeat aliquid odit tempora a laudantium neque sequi eveniet ipsum in sapiente!
-                    </p>
+                    <h5 class="tituloAtividade pt-2">Kits de Atividades</h5>
+                    <div class="p-2">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint qui inventore beatae pariatur sit non numquam, corrupti placeat aliquid odit tempora a laudantium neque sequi eveniet ipsum in sapiente!
+                        </p>
+                    </div>
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item m-1" role="presentation">
+                          <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item m-1" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                        </li>
+                        <li class="nav-item m-1" role="presentation">
+                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                        </li>
+                        <li class="nav-item m-1" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact-1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                        </li>
+                        
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade p-2 show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <p>
+                                    a
+                                </p>
+                            </div>
+                            <div class="tab-pane fade p-2" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <p>
+                                    b
+                                </p>
+                            </div>
+                            <div class="tab-pane fade p-2" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <p>
+                                    c
+                                </p>
+                            </div>
+                            <div class="tab-pane fade p-2" id="pills-contact-1" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <p>
+                                    oi
+                                </p>
+                            </div>
+                            
+                      </div>
                 </div>
             </div>
             <div class="col-md-5">
                 <h5 class="pt-2 tituloSteam">STEAM</h5>
                 <div class="caixaSteam">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero, fuga maxime, hic voluptas nulla similique, numquam quibusdam vel veritatis alias totam fugit earum error illum sed soluta nemo porro!    
-                    </p>
+                    <div class="p-2">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias libero, fuga maxime, hic voluptas nulla similique, numquam quibusdam vel veritatis alias totam fugit earum error illum sed soluta nemo porro!    
+                        </p>
+                    </div>
                 </div>
                 <div class="colunaImagem">
                     <img src="/images/steamimages.jpg" alt="ImagemSteam" style="width:100%;">
@@ -98,5 +136,8 @@
           </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 </html>
