@@ -56,15 +56,16 @@
             <div class="col-md-6">
                 <div class="contato">
                     <p>Contate-nos</p>
-                    <form action="action_page.php">
+                    <form method="post" action="action_page.php">
+                        
                         <label for="name"></label>
-                        <input type="text" id="name" name="name" placeholder="Nome...">
+                        <input type="text" pattern="^[a-zA-Z]+$" id="name" name="name" placeholder="Nome..." required>
 
                         <label for="email"></label>
-                        <input type="text" id="email" name="email" placeholder="Email...">
+                        <input type="email" id="email" name="email" placeholder="Email..." required>
                     
-                        <label for="subject"></label>
-                        <textarea id="subject" name="subject" placeholder="Mensagem.." style="height:200px"></textarea>
+                        <label for="mensagem"></label>
+                        <textarea id="subject" name="mensagem" placeholder="Mensagem.." style="height:200px"></textarea>
                     
                         <input type="submit" value="Enviar">
                     </form>

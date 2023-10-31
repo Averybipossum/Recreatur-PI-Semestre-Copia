@@ -23,9 +23,9 @@
     margin-bottom: -10px;
 }
 
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 9px; /* Some padding */ 
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 9px;
     border: transparent;
     border-left: 5px solid #bec1cb;
     border-bottom: 5px solid #bec1cb;
