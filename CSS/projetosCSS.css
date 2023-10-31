@@ -1,7 +1,7 @@
 .caixaAtividade{
  background-color: #D9D9D9;
  box-shadow: 5px 5px #134074;
- height: 510px;
+ height: 600px;
 }
 .caixaAtividade p{
   color: #134074;
@@ -11,12 +11,13 @@
 .caixaSteam{
 background-color: #D9D9D9;
 box-shadow: 5px 5px #134074;
-height: 210px;
+height: 240px;
 }
 .caixaSteam p {
   color: #134074;
   font-family: 'Quicksand';
   font-weight: bold;
+  font-size: medium;
   margin: 4px;
 }
 .tituloAtividade{
@@ -37,10 +38,11 @@ font-family: 'Quicksand';
   max-width: 100%;
   justify-content: center;
   padding: 0px 4px;
+  
 }
 .colunaImagem img {
   margin-top: 5px;
-  aspect-ratio: 2/1;
+  aspect-ratio: 1/0.47;
   vertical-align:middle;
 }
 .nav-pills .nav-link.active{
