@@ -48,8 +48,8 @@ input[type=submit]:hover {
 }
 
 .doacoes {
+    padding-right: 30px;
     background-color:white;
-    min-height: 500px;
     max-height: auto;
     border: #134074;
     font-family: 'Quicksand';
@@ -63,4 +63,9 @@ input[type=submit]:hover {
 
 .doacoes p {
     white-space: pre-line;
+}
+
+.borda {
+    border-bottom: solid #bec1cb;
+    border-left: solid #bec1cb;
 }
