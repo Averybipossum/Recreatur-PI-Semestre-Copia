@@ -38,13 +38,10 @@ font-family: 'Quicksand';
 .colunaImagem{
   flex: 25%;
   max-width: 100%;
-  justify-content: center;
-  padding: 0px 4px;
   
 }
 .colunaImagem img {
   margin-top: 5px;
-  aspect-ratio: 1/0.47;
   vertical-align:middle;
 }
 .nav-pills .nav-link.active{
