@@ -124,12 +124,13 @@ font-family: 'Quicksand';
 }
 #caixaFotos{
   background-color: #D9D9D9;
+  border-radius: 25px;
 }
 #caixaFotos h6{
   font-weight: bold;
   font-family: 'Quicksand';
   color: #134074;
-  font-size: large;
+  font-size: larger;
   text-align: center;
 }
 #caixaFotos p{
@@ -143,5 +144,4 @@ font-family: 'Quicksand';
 .fotoTema{
   border-radius: 100%;
   aspect-ratio: 1/1;
-  border-width: 20px;
 }
