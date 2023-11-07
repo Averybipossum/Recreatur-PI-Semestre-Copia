@@ -17,8 +17,7 @@
     font-size: xx-large;
 }
 .tituloONG span{
-    background-color: #134074;
-    border-radius: 10px;
+    text-shadow: 0 0 3px #134074, 0 0 5px #134074;
 }
 
 #background{
@@ -30,7 +29,7 @@
 .caixaTexto2 p{
     font-family: "Quicksand";
     font-weight: bold;
-    color: #000;
+    color: #134074;
     font-size: larger;
     margin-left: 20px;
     margin-left: auto;
