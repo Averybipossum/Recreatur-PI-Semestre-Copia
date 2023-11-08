@@ -17,7 +17,7 @@
     <link rel="icon" href="/images/Passatempo_Educativo.png">
     <title>Contate-nos</title>
 </head>
-<body>
+<body onload="obterContatos()">
     <!-- navegação -->
     <nav class="navbar navbar-expand-lg navegador">
         <div class="container-fluid">
@@ -56,8 +56,7 @@
             <div class="col-md-6">
                 <div class="contato">
                     <p>Contate-nos</p>
-                    <form method="post" action="action_page.php">
-                        
+                    <form method="post">
                         <label for="name"></label>
                         <input type="text" pattern="^[a-zA-Z]+$" id="name" name="name" placeholder="Nome..." required>
 
@@ -129,5 +128,8 @@
           </div>
         </footer>
     </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </body>
 </html>
