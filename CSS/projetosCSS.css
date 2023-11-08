@@ -150,10 +150,11 @@ font-family: 'Quicksand';
   border-radius: 25px;
   aspect-ratio: 2.5/1.5;
 }
-.carousel-caption h5{
+.carousel-caption h4{
 font-family:'Quicksand';
 font-weight: bold;
 color:#D9D9D9;
+text-shadow:2px 2px #134074;
 }
 .caixaLugares{
 background-color: #D9D9D9;
