@@ -32,7 +32,7 @@ input[type=text], input[type=email], select, textarea {
     resize: none
 }
 
-input[type=submit]{
+button[type=button]{
     background-color: #134074;
     color: #D7DAE5;
     font-weight: bold;
@@ -43,7 +43,7 @@ input[type=submit]{
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+button[type=button]:hover {
     background-color:#0c2154;
 }
 

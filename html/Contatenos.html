@@ -18,6 +18,19 @@
     <title>Contate-nos</title>
 </head>
 <body onload="obterContatos()">
+
+    <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
     <!-- navegação -->
     <nav class="navbar navbar-expand-lg navegador">
         <div class="container-fluid">
@@ -58,15 +71,15 @@
                     <p>Contate-nos</p>
                     <form method="post">
                         <label for="name"></label>
-                        <input type="text" pattern="^[a-zA-Z]+$" id="name" name="name" placeholder="Nome..." required>
+                        <input type="text" pattern="^[a-zA-Z]+$" id="nomeInput" placeholder="Nome..." required>
 
                         <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="Email..." required>
+                        <input type="email" id="emailINput" placeholder="Email..." required>
                     
                         <label for="mensagem"></label>
-                        <textarea id="subject" name="mensagem" placeholder="Mensagem.." style="height:200px"></textarea>
+                        <textarea id="mensagemINput" placeholder="Mensagem.." style="height:200px"></textarea>
                     
-                        <input type="submit" value="Enviar">
+                        <button type="button"  onclick="cadastrarContato()">Enviar</button>
                     </form>
                 </div>
             </div>
