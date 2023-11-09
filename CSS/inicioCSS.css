@@ -1,0 +1,33 @@
+.img-fluid{
+    height: 3%;
+    max-width: auto;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    border: 3px solid;
+}
+.quadro{
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    border: 1px;
+    text-align: center;
+    position: relative;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block; 
+    font-size:larger;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #D7DAE5;
+    font-weight: bold;
+  }
+.centered h1{
+    font-weight: bold;
+    color: #ffa630;
+}
