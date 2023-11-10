@@ -16,11 +16,11 @@ const Contatos = mongoose.model ("Contatos", mongoose.Schema({
 async function conectarAoMongoDB() {
     await
     mongoose.connect(`mongodb+srv://23007567aluno:23007567aluno@cluster0.rb95lrt.mongodb.net/?retryWrites=true&w=majority`)
-    }
-    
+}
 
 
-app.get("/html/Contatenos.html", (req, res) => {
+app.get("/html/Contatenos.html", async (req, res) => {
+    const contato = await Contatos.find()
     res.json(contato)
 })
 
@@ -40,9 +40,9 @@ app.post("/html/Contatenos.html", async (req, res) => {
     const mensagem = req.body.mensagem
     //monta um objeto agrupando os dados. Ele representa um novo contato
     //a seguir, construímos um objeto COntato a partir do modelo do mongoose
-    const cont = new Contatos({nome: nome, email: email, mensagem: mensagem})
+    const contato = new Contatos({nome: nome, email: email, mensagem: mensagem})
     //save salva o novo contato na base gerenciada pelo MongoDB
-    await cont.save()
+    await contato.save()
     const contats = await Contatos.find()
     res.json(contato)
 })
