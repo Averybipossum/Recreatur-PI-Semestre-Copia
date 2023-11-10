@@ -1,6 +1,6 @@
-.img-fluid{
-    height: 3%;
-    max-width: auto;
+.responsive{
+    width: 100%;
+    height: auto;
     filter: blur(5px);
     -webkit-filter: blur(5px);
     border: 3px solid;
@@ -14,20 +14,29 @@
     position: relative;
 }
 
-
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block; 
-    font-size:larger;
-    text-decoration: none;
+    font-size: 3vh;
     font-family: 'Quicksand';
     color: #D7DAE5;
     font-weight: bold;
+    text-shadow: 2px 2px gray;
+    text-align: justify;
+    text-decoration: none;
   }
 .centered h1{
     font-weight: bold;
     color: #ffa630;
+    font-size: 5vh;
+    text-shadow: 4px 4px #134074;
+    text-align: left;
+}
+
+.carousel-inner{
+    border-radius: 25px;
+    aspect-ratio: 2.5/1.5;
 }
