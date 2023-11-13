@@ -39,10 +39,23 @@
 }
 
 .imagens img{
-    height: 400px;
+    height: auto;
     width: auto;
     padding-top: 4px;
     padding-left: 4px;
     object-position: right center;
 }
 
+.coordenadora{
+    height: 100px;
+    width:  auto;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.titulo{
+    padding-top: 50px; 
+}
+
+#divisao{
+    background: var(--branco);
+}
