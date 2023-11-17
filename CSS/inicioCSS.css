@@ -47,3 +47,21 @@
 .facebook{
     position: relative;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .centered p {
+        font-size: 3vw;
+
+      }
+    
+    #iframed{
+        margin-left: 1rem!important;
+
+    }
+}
