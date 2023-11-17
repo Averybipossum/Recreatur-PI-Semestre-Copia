@@ -1,5 +1,3 @@
-//mongodb+srv://23007567aluno:23007567aluno@cluster0.rb95lrt.mongodb.net/?retryWrites=true&w=majority
-
 const express = require ('express')
 const app = express()
 const cors = require ('cors')
@@ -19,23 +17,11 @@ async function conectarAoMongoDB() {
 }
 
 
-app.get("/html/Contatenos.html", async (req, res) => {
-    const contato = await Contatos.find()
-    res.json(contato)
-})
-
-let contato = [
-    {
-    name: "puta",
-    email: "fodase@email.com",
-    mensagem: ""
-    }
-]
-    
+app.get("/oi", (req, res) => res.send("oi"))
 
 app.post("/html/Contatenos.html", async (req, res) => {
     //obtém os dados enviados pelo cliente
-    const name = req.body.name
+    const nome = req.body.nome
     const email = req.body.email
     const mensagem = req.body.mensagem
     //monta um objeto agrupando os dados. Ele representa um novo contato
@@ -43,8 +29,7 @@ app.post("/html/Contatenos.html", async (req, res) => {
     const contato = new Contatos({nome: nome, email: email, mensagem: mensagem})
     //save salva o novo contato na base gerenciada pelo MongoDB
     await contato.save()
-    const contats = await Contatos.find()
-    res.json(contato)
+    res.end()
 })
 
 app.listen(3000, () => {

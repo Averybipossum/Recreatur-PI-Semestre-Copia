@@ -17,7 +17,7 @@
     <link rel="icon" href="/images/Passatempo_Educativo.png">
     <title>Contate-nos</title>
 </head>
-<body onload="obterContatos()">
+<body>
 
     <!-- VLIBRAS -->
     <div vw class="enabled">
@@ -69,15 +69,15 @@
             <div class="col-md-6">
                 <div class="contato">
                     <p>Contate-nos</p>
-                    <form method="post">
-                        <label for="name"></label>
+                    <form>
+                        <label for="nomeInput"></label>
                         <input type="text" pattern="^[a-zA-Z]+$" id="nomeInput" placeholder="Nome..." required>
 
-                        <label for="email"></label>
-                        <input type="email" id="emailINput" placeholder="Email..." required>
+                        <label for="emailInput"></label>
+                        <input type="email" id="emailInput" placeholder="Email..." required>
                     
-                        <label for="mensagem"></label>
-                        <textarea id="mensagemINput" placeholder="Mensagem.." style="height:200px"></textarea>
+                        <label for="mensagemInput"></label>
+                        <textarea id="mensagemInput" placeholder="Mensagem.." style="height:200px"></textarea>
                     
                         <button type="button"  onclick="cadastrarContato()">Enviar</button>
                     </form>
@@ -90,7 +90,7 @@
                         Todos os valores doados são aplicados integralmente nos nossos programas de atendimento.</p>
                     <p> O seu apoio será transformado em:</p>
                     <ul>
-                        <li>Compra de novos livros educacionaiss</li>
+                        <li>Compra de novos livros educacionais</li>
                         <li>Material de consumo para atividades multidisciplinares.</li>
                         <li>Compra de materiais esportivos</li>
                         <li>Despesas com hospedagem de sites</li>
