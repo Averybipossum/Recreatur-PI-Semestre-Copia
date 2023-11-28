@@ -10,14 +10,15 @@ const Contatos = mongoose.model ("Contatos", mongoose.Schema({
     email: {type: String},
     mensagem: {type: String}
 }))
-    
+
 async function conectarAoMongoDB() {
     await
     mongoose.connect(`mongodb+srv://23007567aluno:23007567aluno@cluster0.rb95lrt.mongodb.net/?retryWrites=true&w=majority`)
 }
 
-
-app.get("/oi", (req, res) => res.send("oi"))
+app.get("/html/Contatenos.html", (req, res) => {
+    res.json(contato)
+})
 
 app.post("/html/Contatenos.html", async (req, res) => {
     //obtém os dados enviados pelo cliente
