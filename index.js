@@ -16,9 +16,7 @@ async function conectarAoMongoDB() {
     mongoose.connect(`mongodb+srv://23007567aluno:23007567aluno@cluster0.rb95lrt.mongodb.net/?retryWrites=true&w=majority`)
 }
 
-app.get("/html/Contatenos.html", (req, res) => {
-    res.json(contato)
-})
+app.get("/oi", (req, res) => res.send("oi"))
 
 app.post("/html/Contatenos.html", async (req, res) => {
     //obtém os dados enviados pelo cliente
