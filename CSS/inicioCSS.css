@@ -44,24 +44,7 @@
     aspect-ratio: 2.5/1.5;
 }
 
-.facebook{
-    position: relative;
-}
-
-
-
-
-
-
-@media (max-width: 768px) {
-
-    .centered p {
-        font-size: 3vw;
-
-      }
-    
-    #iframed{
-        margin-left: 1rem!important;
-
-    }
+.descricao{
+    padding-left: 10%;
+    padding-right: 10%;
 }
