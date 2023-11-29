@@ -44,10 +44,19 @@
     aspect-ratio: 2.5/1.5;
 }
 
-.descricao li{
+.descricao{
     font-family: 'Quicksand';
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
+}
+
+.lista h5{
+    text-shadow: 1px 1px gray;
+}
+
+.lista li{
+    font-family: 'Quicksand';
+    font-weight: bold;
 }
