@@ -20,3 +20,7 @@ async function cadastrarContato(){
     //envia os dados ao servidor (back end)
     await axios.post(URLCompleta, {nome, email, mensagem})
 }
+
+function enviarMensagem() {
+    alert("Sua mensagem foi enviada com sucesso!");
+}
