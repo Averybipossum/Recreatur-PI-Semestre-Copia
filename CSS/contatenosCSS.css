@@ -1,0 +1,71 @@
+#selecionado{
+    color: #ffa630;
+}
+
+.conteudo {
+    padding: 3%;
+}
+
+.col-md-6 {
+    padding: 30px;
+}
+
+.contato{
+    padding: 40px;
+    background-color: #D7DAE5;
+    font-family: 'Quicksand';
+    color: #134074;
+}
+
+.contato p{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 9px;
+    border: transparent;
+    border-left: 5px solid #bec1cb;
+    border-bottom: 5px solid #bec1cb;
+    resize: none
+}
+
+button[type=button]{
+    background-color: #134074;
+    color: #D7DAE5;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=button]:hover {
+    background-color:#0c2154;
+}
+
+.doacoes {
+    padding-right: 30px;
+    background-color:white;
+    max-height: auto;
+    border: #134074;
+    font-family: 'Quicksand';
+}
+
+.doacoes h3 {
+    color: #ffa630;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.doacoes p {
+    white-space: pre-line;
+}
+
+.borda {
+    border-bottom: solid #bec1cb;
+    border-left: solid #bec1cb;
+}

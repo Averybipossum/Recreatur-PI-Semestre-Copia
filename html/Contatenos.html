@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/baseCSS.css">
+    <link rel="stylesheet" href="/CSS/contatenosCSS.css">
+    <link rel="icon" href="/images/Passatempo_Educativo.png">
+    <title>Contate-nos</title>
+</head>
+<body>
+
+    <!-- VLIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+    <!-- navegação -->
+    <nav class="navbar navbar-expand-lg navegador">
+        <div class="container-fluid">
+            <img src="/images/Passatempo_Educativo.png" alt="Passatempo Educativo">
+            <a class="navbar-brand selecionado" href="/html/Base.html">Recreatur</a>
+            <!-- mudança para colapsar dependendo do tamanho da tela -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/Base.html">Menu Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Certificados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="selecionado" href="/html/Contatenos.html">Contate-nos</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- conteudo -->
+    <div class="container-fluid conteudo">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contato">
+                    <p>Contate-nos</p>
+                    <form>
+                        <label for="nomeInput"></label>
+                        <input type="text" pattern="^[a-zA-Z]+$" id="nomeInput" placeholder="Nome..." required>
+
+                        <label for="emailInput"></label>
+                        <input type="email" id="emailInput" placeholder="Email..." required>
+                    
+                        <label for="mensagemInput"></label>
+                        <textarea id="mensagemInput" placeholder="Mensagem.." style="height:200px"></textarea>
+                    
+                        <button type="button"  onclick="cadastrarContato(), enviarMensagem()">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 borda">
+                <div class="doacoes">
+                    <h3>Doações</h3>
+                    <p><strong> Você pode ajudar o Recreatur através de doações!</strong>
+                        Todos os valores doados são aplicados integralmente nos nossos programas de atendimento.</p>
+                    <p> O seu apoio será transformado em:</p>
+                    <ul>
+                        <li>Compra de novos livros educacionais</li>
+                        <li>Material de consumo para atividades multidisciplinares.</li>
+                        <li>Compra de materiais esportivos</li>
+                        <li>Despesas com hospedagem de sites</li>
+                        <li>Transporte para projetos fora da cidade de São Paulo</li>
+                        <li>Desenvolvimento de novos projetos educativos</li>
+                    </ul>
+                    <p><strong>Chave PIX</strong>
+                        CNPJ 07.734.376/0001-79
+                    </p>
+                    <p><strong>Transferência Bancária</strong>
+                        Banco do Brasil
+                        Agência 4093-2
+                        Conta Corrente: 20.098-0
+                        CNPJ 07.734.376/0001-79
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>  
+        
+
+    <!-- rodapé -->
+    <div class="d-flex flex-column">
+        <footer id="sticky-footer" class="flex-shrink-0 py-2 rodape">
+          <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/Passatempoedu/?locale=pt_BR">
+                        <img src="/svg/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/passatempoeducativo/">
+                        <img src="/svg/instagram.svg" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCmjjEtnmVvDNJAkpQmU6gUA">
+                        <img src="/svg/youtube.svg" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/passatempo-educativo/">
+                        <img src="/svg/linkedin.svg" alt="linkedin">
+                    </a>
+                </li>
+            </ul>               
+          </div>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
