@@ -1,0 +1,177 @@
+
+.caixaAtividade{
+ background-color: #D9D9D9;
+ box-shadow: 5px 5px #134074;
+ min-height: 600px;
+ max-height: auto;
+}
+.caixaAtividade p{
+  color: #134074;
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
+.caixaSteam{
+background-color: #D9D9D9;
+box-shadow: 5px 5px #134074;
+min-height: 240px;
+max-height: auto;
+}
+.caixaSteam p {
+  color: #134074;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  font-size: medium;
+  margin: 4px;
+}
+.tituloAtividade{
+color: #134074;
+font-weight: bold;
+font-size: larger;
+font-family: 'Quicksand';
+text-align: center;
+}
+.tituloSteam{
+color: #ffa630;
+font-weight: bold;
+font-size: larger;
+font-family: 'Quicksand';
+}
+.colunaImagem{
+  flex: 25%;
+  max-width: 100%;
+  
+}
+.colunaImagem img {
+  margin-top: 5px;
+  vertical-align:middle;
+}
+.nav-pills .nav-link.active{
+  color: #D9D9D9;
+  background-color:#134074;
+}
+.nav-pills .nav-link{
+  color: #134074;
+  background-color: #ffa630;
+}
+.nav-pills .nav-link:hover{
+  color: #0f345e;
+  background-color: #d28a2b;
+}
+#ativo{
+  color: #ffa630;
+}
+/*Dominios e Habilidades*/
+.tituloSeparatoria{
+  text-align: center;
+  color: #ffa630;
+  font-family: 'Quicksand';
+  font-weight: bolder;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 2px solid #ffa630; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+.tituloSeparatoria span{
+  background-color: white;
+  padding:0 10px; 
+}
+.textoDominio{
+  text-align: center;
+  color: #134074;
+  font-family: 'Quicksand';
+  font-size: large;
+  font-weight: bolder;
+}
+#corDominio{
+  background-color: #D9D9D9;
+  border-radius: 25px;
+}
+#corDominio h5{
+  font-family: 'Quicksand';
+  color: #134074;
+  font-weight: bold;
+  text-align: center;
+}
+.subcaixaDominio{
+  background-color: #ffa630;
+  min-height: 150px;
+  max-height: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.subcaixaDominio li{
+  font-family: 'Quicksand';
+  color: #134074;
+  font-weight: bold;
+}
+.subcaixaDominio ul{
+  list-style-type: none;
+  font-size: larger;
+}
+/*Temas Anuais*/
+.textoTema{
+  background-color: #D9D9D9;
+  min-height: 150px;
+  max-height: auto;
+  border-radius: 15px; 
+}
+.textoTema p{
+  font-family: 'Quicksand';
+  font-weight: bold;
+  font-size: large;
+  color: #134074;
+}
+#caixaFotos{
+  background-color: #D9D9D9;
+  border-radius: 25px;
+}
+#caixaFotos h6{
+  font-weight: bold;
+  font-family: 'Quicksand';
+  color: #134074;
+  font-size: larger;
+  text-align: center;
+}
+#caixaFotos p{
+  font-family: 'Quicksand';
+  color: #134074;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fotoTema{
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+/*Lugares Visitados*/
+.carousel-inner{
+  border-radius: 25px;
+  aspect-ratio: 2.5/1.5;
+}
+.carousel-caption h4{
+font-family:'Quicksand';
+font-weight: bold;
+color:#D9D9D9;
+text-shadow:2px 2px #134074;
+}
+.caixaLugares{
+background-color: #D9D9D9;
+box-shadow: 5px 5px #134074;
+min-height: 300px;
+max-height: auto ;;
+}
+.caixaLugares p {
+  font-family:'Quicksand';
+  font-weight: bold;
+  color: #134074;
+}
+.caixaLugares ul{
+  list-style-type: none;
+}
+.caixaLugares ul li{
+  font-family:'Quicksand';
+  font-weight: bold;
+  color: #134074
+}
