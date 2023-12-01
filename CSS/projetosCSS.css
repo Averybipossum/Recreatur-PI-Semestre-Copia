@@ -93,7 +93,7 @@ font-family: 'Quicksand';
 }
 .subcaixaDominio{
   background-color: #ffa630;
-  min-height: 150px;
+  min-height: 320px;
   max-height: auto;
   border-radius: 15px;
   margin-bottom: 10px;
