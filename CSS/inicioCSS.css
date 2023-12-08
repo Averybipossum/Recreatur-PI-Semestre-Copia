@@ -12,6 +12,14 @@
 
 .textoInicio{
     padding-left: 30px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: large;
+    color: #134074;
+}
+
+.textoInicio h1{
+    font-weight: bolder;
 }
 
 hr{
