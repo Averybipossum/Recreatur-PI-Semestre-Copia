@@ -14,6 +14,12 @@
     padding-left: 30px;
 }
 
+hr{
+    display: block;
+    margin: 10px;
+    color: #134074;
+}
+
 .centered {
     position: absolute;
     width: 90%;
