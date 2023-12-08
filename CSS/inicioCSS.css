@@ -2,14 +2,6 @@
     color: #ffa630;
 }
 
-.fundoInicio{
-    background-color: #D9D9D9;
-    max-height: auto;
-    max-height: auto;
-    border-radius: 15px;
-    padding: 10px;
-}
-
 .textoInicio{
     padding-left: 30px;
     font-family: 'Quicksand';
@@ -44,53 +36,9 @@ hr{
     padding:0 10px; 
   }
 
-.centered {
-    position: absolute;
-    width: 90%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block; 
-    font-size: 2vw;
-    font-family: 'Quicksand';
-    color: #D7DAE5;
-    font-weight: bold;
-    text-shadow: 2px 2px gray;
-    text-align: justify;
-    text-decoration: none;
-  }
-.centered h1{
-    font-weight: bold;
-    color: #ffa630;
-    font-size: 3vw;
-    text-shadow: 4px 4px #134074;
-    text-align: left;
-}
-
 .carousel-inner{
     border-radius: 25px;
     aspect-ratio: 2.5/1.5;
-}
-
-.descricao{
-    font-family: 'Quicksand';
-    font-weight: bold;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: justify;
-}
-
-#background {
-    background-color: #D9D9D9;
-    border-radius: 25px;
-    box-shadow: 10px 10px #134074;
-}
-
-.tituloInicio{
-    font-family: "Quicksand";
-    font-weight: bolder;
-    color: #FFA630;
-    text-shadow: 0 0 3px #134074, 0 0 5px #134074;
 }
 
 .caixaTexto{
@@ -102,4 +50,10 @@ hr{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+}
+
+.caixaTexto h4{
+    font-weight: bolder;
+    color: #ffa630;
+    text-shadow: 0 1px #134074;
 }
