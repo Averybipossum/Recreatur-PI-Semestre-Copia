@@ -28,6 +28,22 @@ hr{
     color: #134074;
 }
 
+.tituloSeparatoria{
+    text-align: center;
+    color: #ffa630;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #ffa630; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+  }
+  .tituloSeparatoria span{
+    background-color: white;
+    padding:0 10px; 
+  }
+
 .centered {
     position: absolute;
     width: 90%;
