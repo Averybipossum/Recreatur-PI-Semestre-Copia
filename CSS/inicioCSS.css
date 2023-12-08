@@ -80,11 +80,26 @@ hr{
     text-align: justify;
 }
 
-.lista h5{
-    text-shadow: 1px 1px gray;
+#background {
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    box-shadow: 10px 10px #134074;
 }
 
-.lista li{
-    font-family: 'Quicksand';
+.tituloInicio{
+    font-family: "Quicksand";
+    font-weight: bolder;
+    color: #FFA630;
+    text-shadow: 0 0 3px #134074, 0 0 5px #134074;
+}
+
+.caixaTexto{
+    font-family: "Quicksand";
     font-weight: bold;
+    color: #134074;
+    font-size: larger;
+    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
