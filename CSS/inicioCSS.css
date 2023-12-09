@@ -49,7 +49,39 @@
     line-height: 0.1em;
     margin: 10px 0 20px; 
   }
-  .tituloSeparatoria span{
+.tituloSeparatoria span{
     background-color: white;
     padding:0 10px; 
   }
+
+.patrocinadores{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.colunaPatrocinadores{
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+}
+
+.colunaPatrocinadores img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .colunaPatrocinadores{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .colunaPatrocinadores{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
